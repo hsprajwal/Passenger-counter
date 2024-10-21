@@ -1,13 +1,14 @@
-body {
+ body {
     background-image: url("train.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+    text-align:center;
     height: 100vh;
+    padding: 250px 0px;
 }
 
 .container {
-    background: white;
+    background: black;
     max-width: 80%;
     margin: auto;
     border: 3px solid black;
@@ -17,12 +18,14 @@ body {
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color:fb8500;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: 03071e;
 }
 
 button {
@@ -44,4 +47,7 @@ button {
     background:#1C7947;
 }
 
+#save-el{
+    color:  f8f9fa;
+}
  
